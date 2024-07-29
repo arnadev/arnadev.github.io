@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url('../images/other-background.png');
+    background-size: contain;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 81px;
+}
+
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 630px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    font-size: 10rem;
+    font-family: 'Good Times Rg';
+    backdrop-filter: blur(3px);
+}
+
+.box:hover{
+    transform: scale(1.04);
+}
+
+.other-buttons{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0,.2);
+    font-size: 50px;
+    border-radius: 10px;
+    border-width: 4px;
+}
+
+.other-buttons:hover{
+    background-color: beige;
+    color: black;}
+
+#x-score{
+    font-size: 100px;
+    font-family: 'Good Times Rg';
+    color: #ffffff;
+    -webkit-text-stroke: 4px black;
+    position: fixed;
+    top: 84px;
+    right:233px;
+    line-height: 100%;
+    border-width: 2px;
+    border-style: dashed;
+}
+
+#y-score{
+    font-size: 100px;
+    font-family: 'Good Times Rg';
+    color: #000000;
+    -webkit-text-stroke: 4px white;
+    position: fixed;
+    top: 84px;
+    right:133px;
+    line-height: 100%;
+    border-width: 2px;
+    border-style: dashed;
+
+}
+
+button{
+    font-size: 100px;
+    background-color: rgba(8, 8, 8, 0.2);
+    backdrop-filter: blue(3px);
+    border-width: 5px;
+    border-radius: 2px;
+    margin: 10px;
+    color: antiquewhite;
+}
+
+button:hover{
+    background-color: bisque;
+    color: #000000;
+    transform: scale(0.95);
+}
+
+
+@font-face {
+    font-family: 'Good Times Rg';
+    src: url('../../fonts/GoodTimesRg-Regular.eot');
+    src: url('../../fonts/GoodTimesRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/GoodTimesRg-Regular.woff2') format('woff2'),
+        url('../../fonts/GoodTimesRg-Regular.woff') format('woff'),
+        url('../../fonts/GoodTimesRg-Regular.ttf') format('truetype'),
+        url('../../fonts/GoodTimesRg-Regular.svg#GoodTimesRg-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

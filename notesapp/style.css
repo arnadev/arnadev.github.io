@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url('../images/other-background.png');
+}
+
+#input-field{
+    width: 50vw;
+    height: 10vh;
+    margin: 50px;
+    padding: 5px;
+    resize: none;
+    overflow: hidden;
+}
+
+#submit-button{
+    width: 200px;
+    margin-right: 40px;
+    background-color: rgba(8, 8, 8, 0.2);
+    backdrop-filter: blue(3px);
+    border-width: 2px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+
+#search-button{
+    width: 200px;
+    background-color: rgba(8, 8, 8, 0.2);
+    backdrop-filter: blue(3px);
+    border-width: 2px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+
+#confirm-edit-button{
+    visibility: hidden;
+    margin-left: 40px;
+    background-color: rgba(8, 8, 8, 0.2);
+    backdrop-filter: blue(3px);
+    border-width: 2px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+
+#entry-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p{
+    font-family: Roboto;
+    font-size: xx-large;
+}
+
+.delete-button{
+    font-size: 30px;
+    background-color: rgba(8, 8, 8, 0.2);
+    backdrop-filter: blue(3px);
+    border-width: 2px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.edit-button{
+    font-size: 30px;
+    background-color: rgba(8, 8, 8, 0.2);
+    backdrop-filter: blue(3px);
+    border-width: 2px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+
+.note-div{
+    overflow-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+}
+

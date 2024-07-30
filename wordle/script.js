@@ -30,6 +30,16 @@ boxes.forEach((box,index)=>{
     })
 })
 
+const applyReadonly=()=>{
+    boxes.forEach((box)=>{
+        box.setAttribute('readonly',true);
+    })
+}
+
+(()=>{if(window.innerWidth<=600){
+    applyReadonly();
+}})();
+
 
 
 

@@ -25,7 +25,6 @@ const storedDate = localStorage.getItem('quoteDate');
 const today = new Date().toISOString().split('T')[0];
 
 (async ()=>{
-
     if(storedQuote && storedDate===today){
         document.querySelector('#quote').innerText= storedQuote;
 

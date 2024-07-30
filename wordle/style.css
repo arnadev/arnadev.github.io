@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-html{
+html,body{
     background-image: url('../images/other-background.png');
 }
 
@@ -15,9 +15,124 @@ html{
 }
 
 #game-grid{
-    width: 90vh;
-    height: 90vh;
+    width: 500px;
+    height: 600px;
     display: grid;
     grid-template-rows: repeat(6,1fr);
     grid-template-columns: repeat(5,1fr);
+    box-sizing: border-box;
+    gap: 5px;
+}
+
+.attempt{
+    font-size: 4em;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgb(60, 60, 60);
+    height: 100%;
+    width: 100%;
+    color: white;
+
+}
+
+.flip-class{
+    animation: flip .4s ease-in-out;
+}
+
+@keyframes flip {
+    50%{
+        transform: scaleY(0);
+    }
+
+    00%{
+        transform: scaleY(1);
+    }
+}
+
+button{
+    font-size: 40px;
+    background-color: rgba(8, 8, 8, 0.2);
+    backdrop-filter: blue(3px);
+    border-width: 5px;
+    border-radius: 2px;
+    margin: 10px;
+    background-color: bisque;
+    color: #000000;
+    position: absolute;
+    bottom: 5vh;
+}
+
+button:hover{
+    background-color: white;
+    color: #000000;
+    transform: scale(0.95);
+}
+
+#reset-button{
+    background-color: bisque;
+    color: #000000;
+    transform: scale(0.95);
+    left: 10vw;
+}
+
+#reset-button:hover{
+    background-color: red;
+    color: #000000;
+    transform: scale(0.95);
+}
+
+#back-button{
+    position: fixed;
+    left: 10vh;
+}
+
+#alert-message{
+    position: absolute;
+    top: 0px;
+    background-color: rgb(0,0,0,.4);
+    backdrop-filter: blur(2px);
+    border-radius: 10PX;
+    border-style: solid;
+    border-width: 4px;
+    font-size: xx-large;
+    font-family: Helvetica, sans-serif;
+    visibility: hidden;
+}
+
+.alert-class{
+    animation: alert-animation 5s ease-in-out forwards;
+}
+
+@keyframes alert-animation{
+    0%{
+        transform: translateY(-100vh);
+    }
+
+    10%{
+        transform: translateY(0%);
+    }
+    90%{
+        transform: translateY(0%);
+    }
+
+    100%{
+        transform: translateY(-100vh);
+    }
+}
+
+#final-message{
+    position: absolute;
+    background-color: rgb(0,0,0);
+    opacity: 0.5;
+    backdrop-filter: blur(10px);
+    border-radius: 5rem;
+    z-index: 1;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    display: none;
+    color: #000000;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }

@@ -18,13 +18,13 @@ boxes[0].focus();
 boxes.forEach((box,index)=>{
     box.addEventListener('input',()=>{
         box.value=box.value.toUpperCase();
-        if(box.value.length===1 && index<boxes.length-1 && (index%5!==4)){
+        if(box.value.length===1 && index<boxes.length-1){
             boxes[index+1].focus();
         }
     })
 
     box.addEventListener('keydown',(event)=>{
-        if(event.key==='Backspace' && box.value==='' && index>0 && (index%5!==0)){
+        if(event.key==='Backspace' && box.value==='' && index>0){
             boxes[index-1].focus();
         }
     })
@@ -188,3 +188,45 @@ document.querySelector('#reset-button').addEventListener('click',()=>{
 
 
 })
+
+const addLetter=(letter)=>{
+    curAttempt=document.querySelectorAll(`.attempt${attemptNo}`);
+    
+    for(idx=0;idx<curAttempt.length;idx++){
+        if(curAttempt[idx].value===''){
+            curAttempt[idx].value=letter;
+            if(idx%5!==4){
+                curAttempt[idx+1].focus();
+            }
+            return 1;
+        }
+    }
+
+}
+
+const remLetter=()=>{
+    curAttempt=document.querySelectorAll(`.attempt${attemptNo}`);
+    for(idx=curAttempt.length-1;idx>=0;idx--){
+        if(curAttempt[idx].value!==''){
+            curAttempt[idx].value=null;
+            if(idx>0){
+            curAttempt[idx-1].focus();
+            }
+            return 0;
+        }
+    }
+}
+
+let digitalKeys=document.querySelectorAll('.digital-keys');
+digitalKeys.forEach((digitalKey)=>{
+    digitalKey.addEventListener('click',()=>{
+        if(digitalKey.innerText!=='⌫'){
+        addLetter(digitalKey.innerText);
+        }
+
+        else{
+            remLetter();
+        }
+    })
+})
+

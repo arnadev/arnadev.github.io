@@ -60,7 +60,7 @@ button{
     margin: 10px;
     background-color: rgb(235, 235, 235);
     color: #000000;
-    position: absolute;
+    position: fixed;
     bottom: 5vh;
 }
 

@@ -97,6 +97,7 @@ button:hover{
     font-size: xx-large;
     font-family: Helvetica, sans-serif;
     visibility: hidden;
+    text-align: center;
 }
 
 .alert-class{
@@ -208,5 +209,9 @@ button:hover{
 
     #keyboard-delete{
         width: 1.4em;
+    }
+    
+    #alert-message{
+        color: white;
     }
 }

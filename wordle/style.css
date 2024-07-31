@@ -55,11 +55,10 @@ html,body{
 button{
     font-size: 40px;
     background-color: rgba(8, 8, 8, 0.2);
-    backdrop-filter: blue(3px);
     border-width: 5px;
     border-radius: 2px;
     margin: 10px;
-    background-color: bisque;
+    background-color: rgb(235, 235, 235);
     color: #000000;
     position: absolute;
     bottom: 5vh;
@@ -67,15 +66,13 @@ button{
 
 button:hover{
     background-color: white;
-    color: #000000;
+    color: #545454;
     transform: scale(0.95);
 }
 
 #reset-button{
-    background-color: bisque;
-    color: #000000;
-    transform: scale(0.95);
-    left: 10vw;
+    position: absolute;
+    left: 20vw;
 }
 
 #reset-button:hover{
@@ -85,7 +82,7 @@ button:hover{
 }
 
 #back-button{
-    position: fixed;
+    position: absolute;
     left: 10vh;
 }
 
@@ -140,7 +137,7 @@ button:hover{
 }
 
 #keyboard{
-    position: fixed;
+    position: absolute;
     right: 0px;
     top: 50vh;
     display: flex;
@@ -154,16 +151,16 @@ button:hover{
     font-size: 4rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(128, 128, 128,.4);
-    margin: 1px;
-    border-radius: 2px;
+    margin: 4px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+
 }
 
 @media (max-width: 600px) {
 
     #container{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
         align-items: flex-start;
     }
 
@@ -172,20 +169,11 @@ button:hover{
         width: 90vw;
         height: 90vw;
         display: grid;
-        grid-template-rows: repeat(6,1fr);
-        grid-template-columns: repeat(5,1fr);
-        box-sizing: border-box;
-        gap: 5px;
     }
 
     #keyboard{
-        display: flex;
-        flex-wrap: wrap;
         height: 20vh;
         width: 90vw;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         top: 100vw;
         left: 50%;
         transform: translateX(-50%);
@@ -193,41 +181,20 @@ button:hover{
 
     .digital-keys{
         font-size: 2.5rem;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(128, 128, 128,.4);
-        margin: 1px;
-        border-radius: 2px;
+        width: 1em;
     }
 
     .attempt{
         font-size: 2em;
-        font-family: Helvetica, sans-serif;
-        font-weight: bold;
-        text-align: center;
-        background-color:rgb(60, 60, 60);
-        height: 100%;
-        width: 100%;
-        color: white;
     }
 
     button{
         font-size: 2em;
-        background-color: rgba(8, 8, 8, 0.2);
-        backdrop-filter: blue(3px);
-        border-width: 5px;
-        border-radius: 2px;
-        margin: 10px;
-        background-color: bisque;
-        color: #000000;
-        position: absolute;
-        bottom: 5vh;
+        bottom: 0vh;
     }
     
     #reset-button{
         font-size: 1.2em;
-        background-color: bisque;
-        color: #000000;
-        transform: scale(0.95);
         width: auto;
         position: fixed;
         left: 0;
@@ -235,8 +202,11 @@ button:hover{
     
 
     #back-button{
-        position: fixed;
         right: 0;
         left: 80vw;
+    }
+
+    #keyboard-delete{
+        width: 1.4em;
     }
 }

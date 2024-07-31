@@ -88,7 +88,7 @@ button:hover{
 
 #battle{
     visibility: hidden;
-    position: fixed;
+    position: absolute;
     top: 15%;
     left: 25%;
     right: 25%;
@@ -127,5 +127,81 @@ button:hover{
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+@media (max-width: 600px){
+
+    #user-bot{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        top: 0%;
+        transform: none;
+    }
+    #user{ 
+        width: 50vw;
+        justify-self: flex-start;
+
+    }
+    
+    #bot{
+        margin-top: auto;
+        justify-self: flex-end;
+        margin-left: 0;
+    }
+    img{
+        width: 50vw;
+    }
+
+    #container{
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: 0;
+    }
+
+    .hand img{
+        height: 30vw;
+        width: 30vw;
+    }
+
+    #back{
+        width: 10vh;
+        position: absolute;
+        bottom: 0vh;
+        left: 0vh;
+    }
+
+    #confirm{
+        position: absolute;
+        bottom: 0vh;
+        right: 0vh;
+        font-size: 3em;
+    }
+
+    #reset{
+        position: absolute;
+        bottom: 0vh;
+        right: 0vh;
+        font-size: 2em;
+    }
+
+    #battle{
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        width: 100vw;
+        font-size: 3em;
+        box-sizing: border-box;
+    }
 }
 

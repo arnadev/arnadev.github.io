@@ -57,7 +57,7 @@ html{
     font-family: 'Good Times Rg';
     color: #ffffff;
     -webkit-text-stroke: 4px black;
-    position: fixed;
+    position: absolute;
     top: 84px;
     right:233px;
     line-height: 100%;
@@ -70,7 +70,7 @@ html{
     font-family: 'Good Times Rg';
     color: #000000;
     -webkit-text-stroke: 4px white;
-    position: fixed;
+    position: absolute;
     top: 84px;
     right:133px;
     line-height: 100%;
@@ -109,3 +109,37 @@ button:hover{
     font-display: swap;
 }
 
+
+@media (max-width: 600px){
+
+    #container{
+        margin-top: 1vh;
+    }
+    #board{
+        width: 100vw;
+    }
+
+    .box{
+        height: 30vw;
+        width: 30vw;
+    }
+
+    #x-score{
+        top: 80vh;
+        font-size: 4em;
+    }
+    #y-score{
+        top: 80vh;
+        font-size: 4em;
+    }
+
+    .other-buttons{
+        font-size: 3em;
+        border-radius: 10px;
+        border-width: 4px;
+    }
+
+    .box{
+        font-size: 6em;
+    }
+}

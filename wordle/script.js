@@ -42,6 +42,49 @@ const applyReadonly=()=>{
 
 
 
+const addLetter=(letter)=>{
+    curAttempt=document.querySelectorAll(`.attempt${attemptNo}`);
+    
+    for(idx=0;idx<curAttempt.length;idx++){
+        if(curAttempt[idx].value===''){
+            curAttempt[idx].value=letter;
+            if(idx%5!==4){
+                curAttempt[idx+1].focus();
+            }
+            return 1;
+        }
+    }
+
+}
+
+const remLetter=()=>{
+    curAttempt=document.querySelectorAll(`.attempt${attemptNo}`);
+    for(idx=curAttempt.length-1;idx>=0;idx--){
+        if(curAttempt[idx].value!==''){
+            curAttempt[idx].value=null;
+            if(idx>0){
+            curAttempt[idx-1].focus();
+            }
+            return 0;
+        }
+    }
+}
+
+let digitalKeys=document.querySelectorAll('.digital-keys');
+digitalKeys.forEach((digitalKey)=>{
+    digitalKey.addEventListener('click',()=>{
+        if(digitalKey.innerText!=='⌫'){
+        addLetter(digitalKey.innerText);
+        }
+
+        else{
+            remLetter();
+        }
+    })
+})
+
+
+
 
 
 let checkWord=async (word)=>{
@@ -68,8 +111,8 @@ let getCount=(word,letter)=>{
     return word.split('').filter(char=>char===letter).length;
 }
 
-let getMatch=(string1,string2)=>{
-    return string1.split('').filter((char,index)=>char==string2[index]).length;
+let getMatch=(string1,string2,letter)=>{
+    return string1.split('').filter((char,index)=>char==string2[index] && char===letter).length;
 }
 
 let alertMsg=(msg)=>{
@@ -93,12 +136,11 @@ let finalMsg=(msg)=>{
 
 
 
-let letterCount=new Object;
 let enterBtn=document.querySelector('#enter-button');
 let attemptNo=1;
 enterBtn.addEventListener('click',async function enterEvent(){
+    let letterCount=new Object;
     let curAttempt=document.querySelectorAll(`.attempt${attemptNo}`);
-    let blankflag=0;
     let winflag=1;
     let enteredString = Array.from(curAttempt).map(box => box.value).join('');
 
@@ -112,7 +154,6 @@ enterBtn.addEventListener('click',async function enterEvent(){
         alertMsg(`'${enteredString}' IS NOT A VALID WORD`);
         return 0;
     }
-
     attemptNo++;
 
 
@@ -125,17 +166,23 @@ enterBtn.addEventListener('click',async function enterEvent(){
         if(letter==word[i]){
             await flip(attemptBox);
             attemptBox.style.backgroundColor='green';
+            document.querySelector(`#${letter}`).style.backgroundColor='rgb(0,255,0,.4)';
+
         }
 
         else if(word.includes(letter)){
             letterCount[letter]=(letterCount[letter]==null)?1:letterCount[letter]+1;
             await flip(attemptBox);
-            if(letterCount[letter]<getCount(word,letter)-getMatch(word,letter)){
+            if(letterCount[letter]<=getCount(word,letter)-getMatch(word,enteredString,letter)){
                 attemptBox.style.backgroundColor='yellow';
-                winflag=0;
+                if(document.querySelector(`#${letter}`).style.backgroundColor!=='green'){
+                    document.querySelector(`#${letter}`).style.backgroundColor='rgb(255,255,0,.4)';
+                }
             }
+            winflag=0;
         }
         else{
+            document.querySelector(`#${letter}`).style.backgroundColor='rgb(0, 0, 0,.6)'
             await flip(attemptBox);
             winflag=0;
         }
@@ -199,44 +246,5 @@ document.querySelector('#reset-button').addEventListener('click',()=>{
 
 })
 
-const addLetter=(letter)=>{
-    curAttempt=document.querySelectorAll(`.attempt${attemptNo}`);
-    
-    for(idx=0;idx<curAttempt.length;idx++){
-        if(curAttempt[idx].value===''){
-            curAttempt[idx].value=letter;
-            if(idx%5!==4){
-                curAttempt[idx+1].focus();
-            }
-            return 1;
-        }
-    }
 
-}
-
-const remLetter=()=>{
-    curAttempt=document.querySelectorAll(`.attempt${attemptNo}`);
-    for(idx=curAttempt.length-1;idx>=0;idx--){
-        if(curAttempt[idx].value!==''){
-            curAttempt[idx].value=null;
-            if(idx>0){
-            curAttempt[idx-1].focus();
-            }
-            return 0;
-        }
-    }
-}
-
-let digitalKeys=document.querySelectorAll('.digital-keys');
-digitalKeys.forEach((digitalKey)=>{
-    digitalKey.addEventListener('click',()=>{
-        if(digitalKey.innerText!=='⌫'){
-        addLetter(digitalKey.innerText);
-        }
-
-        else{
-            remLetter();
-        }
-    })
-})
 

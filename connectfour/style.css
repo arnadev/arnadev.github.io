@@ -83,3 +83,30 @@ button:hover{
     left: 100px;
 }
 
+
+@media (max-width: 600px){
+
+    #game-grid{
+        height: 100vw;
+        width: 100vw;
+        margin-top: 30vh;
+    }
+
+    #turn{
+        font-size: 5em;
+    }
+
+    button{
+        position: absolute;
+        bottom: 0;
+        font-size: 3em;
+        right: 0;
+    }
+
+    #back-button{
+        bottom: 0;
+        left: 0;
+        right: auto;
+    }
+}
+

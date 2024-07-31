@@ -224,7 +224,7 @@ document.querySelector('#reset-button').addEventListener('click',()=>{
 
     boxes.forEach((box)=>{
         box.value=null;
-        box.style.backgroundColor='gray';
+        box.style.backgroundColor='rgb(60,60,60)';
         box.disabled='true';
         box.classList.remove('flip-class');
     })
@@ -237,11 +237,17 @@ document.querySelector('#reset-button').addEventListener('click',()=>{
 
     attemptNo=1;
 
+
+
     (async ()=>{
         word=await getWord();
         word=word.toUpperCase();
         console.log(word);
     })();
+
+    digitalKeys.forEach((digitalKey)=>{
+        digitalKey.style.backgroundColor='rgb(128, 128, 128,.4)';
+    })
 
 
 })

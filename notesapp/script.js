@@ -4,20 +4,19 @@ let searchBtn=document.querySelector('#search-button');
 let confirmEditBtn=document.querySelector('#confirm-edit-button');
 let searchResetBtn=document.querySelector('#search-reset-button');
 let textArea=document.querySelector('#input-field');
-let i=0;
+let notenum=0;
 
 textArea.addEventListener('input',()=>{
     textArea.style.height='auto';
     textArea.style.height=(textArea.scrollHeight)+'px';
 })
 
-const addNote = ()=>{
-    if(isNaN(localStorage.key(i))){
-        i++;
-        return 0;
-    }
+
+
+const addNote = (myKey)=>{
+    notenum++;
     let newnote=document.createElement('div');
-    newnote.innerHTML=`<p>${localStorage.getItem(i)}</p>`;
+    newnote.innerHTML=`<p>${notenum}: ${localStorage.getItem(myKey)}</p>`;
     newnote.classList.add('note-div');
     let delBtn=document.createElement('button');
     delBtn.classList.add('delete-button');
@@ -30,32 +29,29 @@ const addNote = ()=>{
     container.append(newnote);
     newnote.after(document.createElement('br'));
     delBtn.addEventListener('click',()=>{
-        indx=delBtn.parentNode.children[2].innerText[0]-1;
-        localStorage.removeItem(indx);
-        i--;
+        localStorage.removeItem(myKey);
+        delBtn.parentNode.nextSibling.remove();
         delBtn.parentNode.remove();
+        notenum--;
     })
 
     editBtn.addEventListener('click',()=>{
-        
-        indx=editBtn.parentNode.children[2].innerText[0]-1;
         confirmEditBtn.style.visibility='visible';
-        textArea.value=editBtn.parentNode.children[2].innerText;
+        textArea.value=editBtn.parentNode.children[2].innerText.substring(3);
         textArea.focus();
         confirmEditBtn.addEventListener('click',()=>{
             editBtn.parentNode.children[2].innerHTML=`<p>${textArea.value}</p>`;
-            localStorage.setItem(`${indx}`,textArea.value)
+            localStorage.setItem(myKey,textArea.value)
             confirmEditBtn.style.visibility='hidden';
-            
         })
     })
-    i++;
-    textArea.focus();
 };
 
 (()=>{
-    while(i<localStorage.length){
-        addNote();
+    for(let i=0;i<localStorage.length;i++){
+        if(!isNaN(localStorage.key(i))){
+        addNote(localStorage.key(i));
+        }
     }
 })();
 
@@ -64,8 +60,16 @@ submitBtn.addEventListener('click',()=>{
     if(inputText!='')
     {
     textArea.value=null;
-    localStorage.setItem(i,inputText);
-    addNote();
+    let myKey=localStorage.length+1;
+    localStorage.setItem(myKey,inputText);
+    addNote(myKey);
+    }
+    textArea.focus();
+})
+
+document.addEventListener('keydown',(event)=>{
+    if(event.key=='Enter'){
+        submitBtn.click();
     }
 })
 
@@ -74,9 +78,9 @@ searchBtn.addEventListener('click',()=>{
     if(inputText!='')
     {
     textArea.value=null;
-    let divs=document.querySelector('#container').children;
+    let divs=Array.from(document.querySelector('#container').children).filter((child)=>child.tagName==='DIV');
     for(divv of divs){
-        if(!(divv.childNodes[2].innerText.includes(inputText))){
+        if(!(divv.children[2].innerText.includes(inputText))){
             divv.style.display='none';
         }
     }
@@ -89,3 +93,4 @@ searchResetBtn.addEventListener('click',()=>{
         divv.style.display='block';  
     }
 })
+

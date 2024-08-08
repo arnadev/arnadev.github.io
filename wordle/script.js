@@ -181,7 +181,9 @@ showMeaning=()=>{
     },3000);
 }
 
-document.querySelector('#meaning-message').addEventListener('bdlclick',(event)=>{
+
+
+document.querySelector('#meaning-message').addEventListener('dblclick',(event)=>{
     event.target.style.opacity=0;
     setTimeout(()=>{
         event.target.style.visibility='hidden';

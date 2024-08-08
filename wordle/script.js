@@ -1,6 +1,7 @@
 
 let word;
-let meaning;
+let meaning='';
+let blinkMessage='Double Click to close';
 
 let getWord=async ()=>{
     let response=await fetch('https://random-word-api.vercel.app/api?words=1&length=5');
@@ -19,10 +20,12 @@ let checkWord=async (word)=>{
     }
 }
 
+let x;
 let getMeaning=async(word)=>{
     let response=await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
     let data=await response.json();
-    return data[0].meanings[0].definitions[0].definition;
+    x=data;
+    return data;
 }
 
 (async ()=>{
@@ -38,7 +41,14 @@ if(!isValid){
 }
 word=word.toUpperCase();
 
-meaning=await getMeaning(word);
+meaningData=await getMeaning(word);
+for(datas of meaningData){
+    let p=datas.meanings;
+    for(data of p){
+        meaning=meaning.concat(`\n\n${data.partOfSpeech}--${data.definitions[0].definition}`);
+    }
+}
+console.log(meaning);
 })();
 
 
@@ -69,6 +79,7 @@ const applyReadonly=()=>{
 
 (()=>{if(window.innerWidth<=600){
     applyReadonly();
+    blinkMessage='Double Tap to close';
 }})();
 
 
@@ -157,28 +168,38 @@ let finalMsg=(msg)=>{
     finalMsg.classList.add('alert-class');
 }
 
-
+let blinkingMessage=document.createElement('p');
+blinkingMessage.innerText=blinkMessage;
+blinkingMessage.id='blinking-message';
 showMeaning=()=>{
     setTimeout(()=>{
         let meaningMessage=document.querySelector('#meaning-message');
-        meaningMessage.innerText=word+': '+meaning;
+        meaningMessage.innerText=word+':'+meaning;
+        meaningMessage.prepend(blinkingMessage);
         meaningMessage.style.visibility='visible';
         meaningMessage.style.opacity=1;
     },3000);
 }
 
-document.querySelector('#meaning-message').addEventListener('click',(event)=>{
+document.querySelector('#meaning-message').addEventListener('bdlclick',(event)=>{
     event.target.style.opacity=0;
     setTimeout(()=>{
         event.target.style.visibility='hidden';
     },2000);
 })
 
-document.querySelector('#meaning-message').addEventListener('touchstart',(event)=>{
-    event.target.style.opacity=0;
-    setTimeout(()=>{
-        event.target.style.visibility='hidden';
-    },2000)
+let lastTap=0;
+document.querySelector('#meaning-message').addEventListener('touchend',(event)=>{
+    event.preventDefault();
+    const currTime=new Date().getTime();
+    const tapLength=currTime-lastTap;
+    if(tapLength<500 && tapLength>0){
+        event.target.style.opacity=0;
+        setTimeout(()=>{
+            event.target.style.visibility='hidden';
+        },2000)
+    }
+    lastTap=currTime;
 })
 
 let enterBtn=document.querySelector('#enter-button');
@@ -268,6 +289,7 @@ document.addEventListener('keydown',(event)=>{
 document.querySelector('#reset-button').addEventListener('click',()=>{
 
     enterBtn.style.visibility='visible';
+    meaning='';
 
     boxes.forEach((box)=>{
         box.value=null;
@@ -288,13 +310,31 @@ document.querySelector('#reset-button').addEventListener('click',()=>{
 
     (async ()=>{
         word=await getWord();
+        for(letter of word){
+            if(letter.charCodeAt(0)<97 || letter.charCodeAt(0)>122){
+                document.querySelector('#reset-button').click();
+            }
+        }
+        let isValid=await checkWord(word);
+        if(!isValid){
+            document.querySelector('#reset-button').click();
+        }
         word=word.toUpperCase();
-        meaning=await getMeaning(word);
+        
+        meaningData=await getMeaning(word);
+        for(datas of meaningData){
+            let p=datas.meanings;
+            for(data of p){
+                meaning=meaning.concat(`\n\n${data.partOfSpeech}--${data.definitions[0].definition}`);
+            }
+        }
+        console.log(meaning);
     })();
 
     digitalKeys.forEach((digitalKey)=>{
         digitalKey.style.backgroundColor='rgb(128, 128, 128,.4)';
     })
+    
 
 
 })

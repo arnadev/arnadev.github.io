@@ -177,12 +177,29 @@ button:hover{
     overflow-y: auto;
     display: grid;
     text-align: center;
-    place-items: center;
+    align-content: flex-start;
     text-shadow: #000000 5px 5px 2px;
     padding: 10px;
     box-sizing: border-box;
-    transition: 2s cubic-bezier(0.22,1,0.36,1);
+    transition: .1s cubic-bezier(0.22,1,0.36,1);
     opacity: 0;
+}
+
+#blinking-message{
+    text-align: center;
+    margin-bottom: 10vh;
+    font-weight: 100;
+    animation: blinking-animation 2s cubic-bezier(0.22,1,0.36,1) infinite alternate;
+    font-size: 3rem;
+}
+
+@keyframes blinking-animation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: .75;
+    }
 }
 
 @media (max-width: 600px) {
@@ -253,5 +270,9 @@ button:hover{
     #meaning-message{
         font-size: 2rem;
         text-shadow: #000000 3px 3px 1px;
+    }
+
+    #blinking-message{
+        font-size: 1.5rem;
     }
 }

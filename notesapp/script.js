@@ -5,6 +5,8 @@ let confirmEditBtn=document.querySelector('#confirm-edit-button');
 let searchResetBtn=document.querySelector('#search-reset-button');
 let textArea=document.querySelector('#input-field');
 let notenum=0;
+let currEdit=null;
+let currKey=null;
 
 textArea.addEventListener('input',()=>{
     textArea.style.height='auto';
@@ -16,7 +18,7 @@ textArea.addEventListener('input',()=>{
 const addNote = (myKey)=>{
     notenum++;
     let newnote=document.createElement('div');
-    newnote.innerHTML=`<p>${notenum}: ${localStorage.getItem(myKey)}</p>`;
+    newnote.innerHTML=`<p>${notenum}-[${localStorage.getItem(myKey).split('///')[1]}]: ${localStorage.getItem(myKey).split('///')[0]}</p>`;
     newnote.classList.add('note-div');
     let delBtn=document.createElement('button');
     delBtn.classList.add('delete-button');
@@ -28,6 +30,7 @@ const addNote = (myKey)=>{
     newnote.prepend(editBtn);
     container.append(newnote);
     newnote.after(document.createElement('br'));
+    
     delBtn.addEventListener('click',()=>{
         localStorage.removeItem(myKey);
         delBtn.parentNode.nextSibling.remove();
@@ -37,15 +40,20 @@ const addNote = (myKey)=>{
 
     editBtn.addEventListener('click',()=>{
         confirmEditBtn.style.visibility='visible';
-        textArea.value=editBtn.parentNode.children[2].innerText.substring(3);
+        textArea.value=editBtn.parentNode.children[2].innerText.substring(18);
         textArea.focus();
-        confirmEditBtn.addEventListener('click',()=>{
-            editBtn.parentNode.children[2].innerHTML=`<p>${textArea.value}</p>`;
-            localStorage.setItem(myKey,textArea.value)
-            confirmEditBtn.style.visibility='hidden';
-        })
+        currEdit=editBtn;
+        currKey=myKey;
     })
 };
+
+confirmEditBtn.addEventListener('click',()=>{
+    currEdit.parentNode.children[2].innerText=`${currEdit.parentNode.children[2].innerText[0]}-[${localStorage.getItem(currKey).split('///')[1]}]: ${localStorage.getItem(currKey).split('///')[0]}`;
+    localStorage.setItem(currKey,textArea.value+'///'+Date().substring(4,10)+Date().substring(15,21));
+    confirmEditBtn.style.visibility='hidden';
+    currEdit.parentNode.remove();
+    addNote(currKey);
+});
 
 (()=>{
     for(let i=0;i<localStorage.length;i++){
@@ -61,7 +69,7 @@ submitBtn.addEventListener('click',()=>{
     {
     textArea.value=null;
     let myKey=localStorage.length+1;
-    localStorage.setItem(myKey,inputText);
+    localStorage.setItem(myKey,inputText+'///'+Date().substring(4,10)+Date().substring(15,21));
     addNote(myKey);
     }
     textArea.focus();

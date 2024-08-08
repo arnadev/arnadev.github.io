@@ -1,16 +1,47 @@
 
 let word;
+let meaning;
+
 let getWord=async ()=>{
     let response=await fetch('https://random-word-api.vercel.app/api?words=1&length=5');
     let data=await response.json();
     return data[0];
 }
 
+let checkWord=async (word)=>{
+    let response=await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+    let data=await response.json();
+    if(data.title=='No Definitions Found'){
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
+let getMeaning=async(word)=>{
+    let response=await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+    let data=await response.json();
+    return data[0].meanings[0].definitions[0].definition;
+}
 
 (async ()=>{
 word=await getWord();
+for(letter of word){
+    if(letter.charCodeAt(0)<97 || letter.charCodeAt(0)>122){
+        document.querySelector('#reset-button').click();
+    }
+}
+let isValid=await checkWord(word);
+if(!isValid){
+    document.querySelector('#reset-button').click();
+}
 word=word.toUpperCase();
+
+meaning=await getMeaning(word);
 })();
+
+
 
 
 const boxes=document.querySelectorAll('.attempt');
@@ -44,7 +75,9 @@ const applyReadonly=()=>{
 
 const addLetter=(letter)=>{
     curAttempt=document.querySelectorAll(`.attempt${attemptNo}`);
-    
+    if(curAttempt[0].disabled){
+        return 0;
+    }
     for(idx=0;idx<curAttempt.length;idx++){
         if(curAttempt[idx].value===''){
             curAttempt[idx].value=letter;
@@ -87,16 +120,7 @@ digitalKeys.forEach((digitalKey)=>{
 
 
 
-let checkWord=async (word)=>{
-    let response=await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
-    let data=await response.json();
-    if(data.title=='No Definitions Found'){
-        return false;
-    }
-    else{
-        return true;
-    }
-}
+
 
 let flip=(x)=>{
     return new Promise((resolve,reject)=>{
@@ -134,7 +158,28 @@ let finalMsg=(msg)=>{
 }
 
 
+showMeaning=()=>{
+    setTimeout(()=>{
+        let meaningMessage=document.querySelector('#meaning-message');
+        meaningMessage.innerText=word+': '+meaning;
+        meaningMessage.style.visibility='visible';
+        meaningMessage.style.opacity=1;
+    },3000);
+}
 
+document.querySelector('#meaning-message').addEventListener('click',(event)=>{
+    event.target.style.opacity=0;
+    setTimeout(()=>{
+        event.target.style.visibility='hidden';
+    },2000);
+})
+
+document.querySelector('#meaning-message').addEventListener('touchstart',(event)=>{
+    event.target.style.opacity=0;
+    setTimeout(()=>{
+        event.target.style.visibility='hidden';
+    },2000)
+})
 
 let enterBtn=document.querySelector('#enter-button');
 let attemptNo=1;
@@ -191,8 +236,9 @@ enterBtn.addEventListener('click',async function enterEvent(){
 
     if(winflag==1){
         finalMsg('YOUR GUESS WAS CORRECT!');
-        document.querySelector('#final-message').style.backgroundColor='green';
+        document.querySelector('#final-message').style.backgroundColor='rgb(0,255,0,.2)';
         enterBtn.style.visibility='hidden';
+        showMeaning();
         return 0;
     }
 
@@ -207,7 +253,8 @@ enterBtn.addEventListener('click',async function enterEvent(){
     else{
         finalMsg(`THE ANSWER WAS ${word}`);
         enterBtn.style.visibility='hidden';
-        document.querySelector('#final-message').style.backgroundColor='red';
+        document.querySelector('#final-message').style.backgroundColor='rgb(255,0,0,.2)';
+        showMeaning();
         return 0;
     }
 })
@@ -242,7 +289,7 @@ document.querySelector('#reset-button').addEventListener('click',()=>{
     (async ()=>{
         word=await getWord();
         word=word.toUpperCase();
-        console.log(word);
+        meaning=await getMeaning(word);
     })();
 
     digitalKeys.forEach((digitalKey)=>{

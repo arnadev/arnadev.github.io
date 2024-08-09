@@ -80,6 +80,7 @@ const applyReadonly=()=>{
 (()=>{if(window.innerWidth<=600){
     applyReadonly();
     blinkMessage='Double Tap to close';
+    document.querySelector('#color-div').style.top=`${document.querySelector('#game-grid').getBoundingClientRect().bottom+20}px`;
 }})();
 
 
@@ -222,6 +223,13 @@ enterBtn.addEventListener('click',async function enterEvent(){
         alertMsg(`'${enteredString}' IS NOT A VALID WORD`);
         return 0;
     }
+
+    enterBtn.disabled=true;
+    if(attemptNo==1){
+        window.addEventListener('beforeunload', function (e) {
+            e.preventDefault();
+        });
+    }
     attemptNo++;
 
 
@@ -233,8 +241,8 @@ enterBtn.addEventListener('click',async function enterEvent(){
         let letter=attemptBox.value;
         if(letter==word[i]){
             await flip(attemptBox);
-            attemptBox.style.backgroundColor='green';
-            document.querySelector(`#${letter}`).style.backgroundColor='rgb(0,255,0,.4)';
+            attemptBox.style.backgroundColor='rgb(0,255,0,.4)';
+            document.querySelector(`#${letter}`).style.backgroundColor='rgb(0,255,0,.8)';
 
         }
 
@@ -242,7 +250,7 @@ enterBtn.addEventListener('click',async function enterEvent(){
             letterCount[letter]=(letterCount[letter]==null)?1:letterCount[letter]+1;
             await flip(attemptBox);
             if(letterCount[letter]<=getCount(word,letter)-getMatch(word,enteredString,letter)){
-                attemptBox.style.backgroundColor='yellow';
+                attemptBox.style.backgroundColor='rgb(255,255,0,.8)';
                 if(document.querySelector(`#${letter}`).style.backgroundColor!=='green'){
                     document.querySelector(`#${letter}`).style.backgroundColor='rgb(255,255,0,.4)';
                 }
@@ -256,7 +264,7 @@ enterBtn.addEventListener('click',async function enterEvent(){
         }
 
     }
-
+    enterBtn.disabled=false;
     if(winflag==1){
         finalMsg('YOUR GUESS WAS CORRECT!');
         document.querySelector('#final-message').style.backgroundColor='rgb(0,255,0,.2)';

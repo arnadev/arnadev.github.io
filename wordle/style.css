@@ -4,7 +4,7 @@
 }
 
 html,body{
-    background-image: url('../images/other-background.png');
+    background-color: #e2e2e2;
     height: 100%;
     width: 100%;
 }
@@ -75,15 +75,10 @@ button:hover{
     left: 20vw;
 }
 
-#reset-button:hover{
-    background-color: red;
-    color: #000000;
-    transform: scale(0.95);
-}
-
 #back-button{
     position: absolute;
     left: 10vh;
+    background-color: rgb(255, 255, 0,.4);
 }
 
 #alert-message{
@@ -139,27 +134,38 @@ button:hover{
     padding-right: 1rem;
 }
 
-#keyboard{
+#keyboard {
     position: absolute;
-    right: 0px;
+    right: 3%;
     top: 50vh;
-    display: flex;
-    flex-wrap: wrap;
+    height: 15vh;
     width: 30vw;
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.row{
+    display: flex;
+    height: 33.33%;
+    width: fit-content;
+    margin: 5px;
+}
 
-.digital-keys{
-    font-size: 4rem;
+.digital-keys {
+    width: 3vw;
+    height: 100%;
+    font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(128, 128, 128,.4);
-    margin: 4px;
-    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2px;
     text-align: center;
     font-weight: bold;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
 
 #meaning-message{
@@ -207,6 +213,14 @@ button:hover{
     }
 }
 
+#color-div{
+    background-color: #706464;
+    position: absolute;
+    right: 0px;
+    left: 64vw;
+    height: 100vh;
+}
+
 @media (max-width: 600px) {
 
     #container{
@@ -228,13 +242,15 @@ button:hover{
         transform: translateX(-50%);
     }
 
+
     .digital-keys{
         font-size: 2.5rem;
-        width: 1em;
+        width: 9vw;
         height: 1.2em;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 2px;
     }
 
     .attempt{
@@ -252,11 +268,20 @@ button:hover{
         position: fixed;
         left: 0;
     }
+
+    #enter-button{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0%;
+    }
     
 
     #back-button{
         right: 0;
-        left: 80vw;
+        left: 87vw;
+        font-size: large;
+        width: fit-content;
     }
 
     #keyboard-delete{
@@ -279,5 +304,11 @@ button:hover{
 
     #blinking-message{
         font-size: 1.5rem;
+    }
+
+    #color-div{
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 }

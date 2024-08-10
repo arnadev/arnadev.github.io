@@ -169,11 +169,12 @@ let finalMsg=(msg)=>{
     finalMsg.classList.add('alert-class');
 }
 
-let blinkingMessage=document.createElement('p');
-blinkingMessage.innerText=blinkMessage;
-blinkingMessage.id='blinking-message';
+
 showMeaning=()=>{
     setTimeout(()=>{
+        let blinkingMessage=document.createElement('p');
+        blinkingMessage.innerText=blinkMessage;
+        blinkingMessage.id='blinking-message';
         let meaningMessage=document.querySelector('#meaning-message');
         meaningMessage.innerText=word+':'+meaning;
         meaningMessage.prepend(blinkingMessage);
@@ -242,7 +243,7 @@ enterBtn.addEventListener('click',async function enterEvent(){
         if(letter==word[i]){
             await flip(attemptBox);
             attemptBox.style.backgroundColor='rgb(0,255,0,.4)';
-            document.querySelector(`#${letter}`).style.backgroundColor='rgb(0,255,0,.8)';
+            document.querySelector(`#${letter}`).style.backgroundColor='rgb(0,255,0,.4)';
 
         }
 
@@ -251,7 +252,7 @@ enterBtn.addEventListener('click',async function enterEvent(){
             await flip(attemptBox);
             if(letterCount[letter]<=getCount(word,letter)-getMatch(word,enteredString,letter)){
                 attemptBox.style.backgroundColor='rgb(255,255,0,.8)';
-                if(document.querySelector(`#${letter}`).style.backgroundColor!=='green'){
+                if(document.querySelector(`#${letter}`).style.backgroundColor!=='rgba(0, 255, 0, 0.4)'){
                     document.querySelector(`#${letter}`).style.backgroundColor='rgb(255,255,0,.4)';
                 }
             }

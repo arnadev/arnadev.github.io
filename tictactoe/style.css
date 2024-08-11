@@ -4,8 +4,8 @@
 }
 
 html{
-    background-image: url('../images/other-background.png');
-    background-size: contain;
+    background-image: url('tictactoe-background.jpg');
+    background-size: cover;
 }
 
 #container{
@@ -141,5 +141,10 @@ button:hover{
 
     .box{
         font-size: 6em;
+    }
+
+    html{
+        background-image: url('tictactoe-background-mobile.png');
+        background-size: cover;
     }
 }

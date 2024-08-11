@@ -46,10 +46,6 @@ document.addEventListener('click',()=>{
     document.querySelector('#quote').classList.add('fadeout-class');
 })
 
-(()=>{if(window.innerWidth<=600){
-    applyReadonly();
-}})();
-
 // class human{
 //     constructor(){
 //     }

@@ -28,6 +28,11 @@ a{
     border-color: black;
     animation: fadein .5s ease-in forwards;
     animation-delay: 4s;
+
+    user-select: none;
+    -webkit-user-select: none;  /* For Safari */
+    -moz-user-select: none;     /* For Firefox */
+    -ms-user-select: none;      /* For IE10+/Edge */
 }
 
 #quote-of-the-day{
@@ -62,6 +67,11 @@ a{
     margin-top: 200px;
     top: 0px;
     transition: cubic-bezier(.17,.67,.83,.67) 1s;
+
+    user-select: none;
+    -webkit-user-select: none;  /* For Safari */
+    -moz-user-select: none;     /* For Firefox */
+    -ms-user-select: none;      /* For IE10+/Edge */
 }
 
 #arnavchalla:hover{
@@ -134,9 +144,14 @@ a{
     background-image: url('../icons/wordle.png');
 }
 
+#timetable{
+    background-image: url('../icons/timetable.png');
+}
+
 #chess{
     background-image: url('../icons/chess.png');
 }
+
 
 
 

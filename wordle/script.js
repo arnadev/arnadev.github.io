@@ -227,7 +227,7 @@ enterBtn.addEventListener('click',async function enterEvent(){
 
     enterBtn.disabled=true;
     if(attemptNo==1){
-        window.addEventListener('beforeunload', function (e) {
+        window.addEventListener('beforeunload', unloadProtect=(e)=>{
             e.preventDefault();
         });
     }
@@ -267,7 +267,12 @@ enterBtn.addEventListener('click',async function enterEvent(){
     }
     enterBtn.disabled=false;
     if(winflag==1){
-        finalMsg('YOUR GUESS WAS CORRECT!');
+        window.removeEventListener('beforeunload', unloadProtect);
+
+        let winstreakVal=localStorage.getItem('winstreak');
+        winstreakVal=(winstreakVal===null)?1:Number(winstreakVal)+1;
+        localStorage.setItem('winstreak',winstreakVal);
+        finalMsg(`YOUR GUESS WAS CORRECT!\nWINSTREAK:${winstreakVal}`);
         document.querySelector('#final-message').style.backgroundColor='rgb(0,255,0,.2)';
         enterBtn.style.visibility='hidden';
         showMeaning();
@@ -283,6 +288,9 @@ enterBtn.addEventListener('click',async function enterEvent(){
     curAttempt[0].focus();
     }
     else{
+        window.removeEventListener('beforeunload', unloadProtect);
+
+        localStorage.setItem('winstreak',0);
         finalMsg(`THE ANSWER WAS ${word}`);
         enterBtn.style.visibility='hidden';
         document.querySelector('#final-message').style.backgroundColor='rgb(255,0,0,.2)';
@@ -298,7 +306,6 @@ document.addEventListener('keydown',(event)=>{
 })
 
 document.querySelector('#reset-button').addEventListener('click',()=>{
-
     enterBtn.style.visibility='visible';
     meaning='';
 
@@ -345,6 +352,7 @@ document.querySelector('#reset-button').addEventListener('click',()=>{
     digitalKeys.forEach((digitalKey)=>{
         digitalKey.style.backgroundColor='rgb(128, 128, 128,.4)';
     })
+    
     
 
 

@@ -50,7 +50,7 @@ a{
 
 #arnavchalla{
     font-size: 3rem;
-    font-family: "IBM Plex Mono";
+    font-family: "IBM Plex Mono",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 200;
     text-shadow: 5px 5px 10px rgb(0, 0, 0);
     display: flex;

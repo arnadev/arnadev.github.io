@@ -58,7 +58,7 @@ const setSlots=async ()=>{
         document.querySelector(`#slot${Number(idx)+1}`).innerText=iterableslots[idx].text;
         document.querySelector(`#slot${Number(idx)+1}`).prepend(timingList[idx]);
         if(curSlot===-1){
-            return;
+            continue;
         }
         if(Number(idx)+1<curSlot){
             document.querySelector(`#slot${Number(idx)+1}`).style.opacity='.5';

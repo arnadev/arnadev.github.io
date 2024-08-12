@@ -1,0 +1,525 @@
+{
+    "CSE1": {
+      "Monday": [
+        { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+        { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+        { "slot": 3, "text": "Reinforcement Learning (CS4122\n Dr. Gourav\n[ELT2]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis [ECR3]\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR2]" },
+        { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+        { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+        { "slot": 8, "text": "Game Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR16]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+        { "slot": 9, "text": "Industrial Engineering (ME 4105/EC 4125 )\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+        { "slot": 10, "text": "Compiler Design (CS4102)\n[ELT2]" }
+      ],
+      "Tuesday": [
+        { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+        { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+        { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+        { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
+        { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nIntroduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+        { "slot": 8, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR1]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+        { "slot": 9, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+        { "slot": 10, "text": "FREE" }
+      ],
+      "Wednesday": [
+        { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+        { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+        { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\n[ELT6]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n[ECR9]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR3]" },
+        { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT5]\n\nPlant Automation & CPS (ME4070)\nDr. Sahu\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]" },
+        { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\nDr. Raja Rao\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "FREE" },
+        { "slot": 8, "text": "FREE" },
+        { "slot": 9, "text": "FREE" },
+        { "slot": 10, "text": "FREE" }
+      ],
+      "Thursday": [
+        { "slot": 1, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+        { "slot": 2, "text": "Distributed systems (CS4101) Lab\nDr. Satish" },
+        { "slot": 3, "text": "Distributed systems (CS4101) Lab\nDr. Satish" },
+        { "slot": 4, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR6]\n\nFlexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR15]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]" },
+        { "slot": 5, "text": "Semiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR2]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR14]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "Quantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n[ETR6]\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+        { "slot": 8, "text": "Systems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR3]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR8]" },
+        { "slot": 9, "text": "FREE" },
+        { "slot": 10, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" }
+      ],
+      "Friday": [
+        { "slot": 1, "text": "Crypto and NetSecurity (CS4103) Lab\nDr. Raghu" },
+        { "slot": 2, "text": "Crypto and NetSecurity (CS4103) Lab\nDr. Raghu" },
+        { "slot": 3, "text": "FREE" },
+        { "slot": 4, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR3]  " },
+        { "slot": 5, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "Wireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]" },
+        { "slot": 8, "text": "Compiler Design (CS4102)\n[ELT2]" },
+        { "slot": 9, "text": "Compiler Design (CS4102)\n[ELT2]" },
+        { "slot": 10, "text": "FREE" }
+      ],
+      "Saturday": [
+        { "slot": 1, "text": "FREE" },
+        { "slot": 2, "text": "FREE" },
+        { "slot": 3, "text": "FREE" },
+        { "slot": 4, "text": "FREE" },
+        { "slot": 5, "text": "FREE" },
+        { "slot": 6, "text": "FREE" },
+        { "slot": 7, "text": "FREE" },
+        { "slot": 8, "text": "FREE" },
+        { "slot": 9, "text": "FREE" },
+        { "slot": 10, "text": "FREE" }
+      ]
+    },
+
+    "CSE2": {
+      "Monday": [
+        { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+        { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+        { "slot": 3, "text": "Reinforcement Learning (CS4122\n Dr. Gourav\n[ELT2]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis [ECR3]\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR2]" },
+        { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+        { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+        { "slot": 8, "text": "Game Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR16]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+        { "slot": 9, "text": "Industrial Engineering (ME 4105/EC 4125 )\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+        { "slot": 10, "text": "Compiler Design (CS4102)\n[ELT2]" }
+      ],
+      "Tuesday": [
+        { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+        { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+        { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+        { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
+        { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nIntroduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+        { "slot": 8, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR1]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+        { "slot": 9, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+        { "slot": 10, "text": "FREE" }
+      ],
+      "Wednesday": [
+        { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+        { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+        { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\n[ELT6]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n[ECR9]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR3]" },
+        { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT5]\n\nPlant Automation & CPS (ME4070)\nDr. Sahu\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]" },
+        { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\nDr. Raja Rao\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "FREE" },
+        { "slot": 8, "text": "FREE" },
+        { "slot": 9, "text": "FREE" },
+        { "slot": 10, "text": "FREE" }
+      ],
+      "Thursday": [
+        { "slot": 1, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+        { "slot": 2, "text": "Distributed systems (CS4101) Lab\nDr. Satish" },
+        { "slot": 3, "text": "Distributed systems (CS4101) Lab\nDr. Satish" },
+        { "slot": 4, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR6]\n\nFlexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR15]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]" },
+        { "slot": 5, "text": "Semiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR2]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR14]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "Quantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n[ETR6]\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+        { "slot": 8, "text": "Systems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR3]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR8]" },
+        { "slot": 9, "text": "FREE" },
+        { "slot": 10, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" }
+      ],
+      "Friday": [
+        { "slot": 1, "text": "Crypto and NetSecurity (CS4103) Lab\nDr. Raghu" },
+        { "slot": 2, "text": "Crypto and NetSecurity (CS4103) Lab\nDr. Raghu" },
+        { "slot": 3, "text": "FREE" },
+        { "slot": 4, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR3]  " },
+        { "slot": 5, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+        { "slot": 6, "text": "LUNCH BREAK" },
+        { "slot": 7, "text": "Wireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]" },
+        { "slot": 8, "text": "Compiler Design (CS4102)\n[ELT2]" },
+        { "slot": 9, "text": "Compiler Design (CS4102)\n[ELT2]" },
+        { "slot": 10, "text": "FREE" }
+      ],
+      "Saturday": [
+        { "slot": 1, "text": "FREE" },
+        { "slot": 2, "text": "FREE" },
+        { "slot": 3, "text": "FREE" },
+        { "slot": 4, "text": "FREE" },
+        { "slot": 5, "text": "FREE" },
+        { "slot": 6, "text": "FREE" },
+        { "slot": 7, "text": "FREE" },
+        { "slot": 8, "text": "FREE" },
+        { "slot": 9, "text": "FREE" },
+        { "slot": 10, "text": "FREE" }
+      ]
+    },
+
+      "CSE3": {
+        "Monday": [
+          { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+          { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122\n Dr. Gourav\n[ELT2]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis [ECR3]\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Game Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR16]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105/EC 4125 )\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "Compiler Design (CS4102)\n[ELT2]" }
+        ],
+        "Tuesday": [
+          { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+          { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nIntroduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 8, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR1]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Wednesday": [
+          { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+          { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\n[ELT6]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n[ECR9]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR3]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT5]\n\nPlant Automation & CPS (ME4070)\nDr. Sahu\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\nDr. Raja Rao\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Thursday": [
+          { "slot": 1, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 2, "text": "Crypto and NetSecurity (CS4103) Lab\nDr. Raghu" },
+          { "slot": 3, "text": "Crypto and NetSecurity (CS4103) Lab\nDr. Raghu" },
+          { "slot": 4, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR6]\n\nFlexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR15]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]" },
+          { "slot": 5, "text": "Semiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR2]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR14]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Quantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n[ETR6]\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Systems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR3]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR8]" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" }
+        ],
+        "Friday": [
+          { "slot": 2, "text": "Distributed systems (CS4101) Lab\nDr. Satish" },
+          { "slot": 3, "text": "Distributed systems (CS4101) Lab\nDr. Satish" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR3]  " },
+          { "slot": 5, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Wireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]" },
+          { "slot": 8, "text": "Compiler Design (CS4102)\n[ELT2]" },
+          { "slot": 9, "text": "Compiler Design (CS4102)\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Saturday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "FREE" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "FREE" },
+          { "slot": 5, "text": "FREE" },
+          { "slot": 6, "text": "FREE" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ]
+      },
+      "CSE4": {
+        "Monday": [
+          { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+          { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122\n Dr. Gourav\n[ELT2]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis [ECR3]\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Game Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR16]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105/EC 4125 )\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "Compiler Design (CS4102)\n[ELT2]" }
+        ],
+        "Tuesday": [
+          { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+          { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nIntroduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 8, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR1]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Wednesday": [
+          { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
+          { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\n[ELT6]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n[ECR9]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR3]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT5]\n\nPlant Automation & CPS (ME4070)\nDr. Sahu\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\nDr. Raja Rao\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Thursday": [
+          { "slot": 1, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 2, "text": "Crypto and NetSecurity (CS4103) Lab\nDr. Raghu" },
+          { "slot": 3, "text": "Crypto and NetSecurity (CS4103) Lab\nDr. Raghu" },
+          { "slot": 4, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR6]\n\nFlexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR15]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]" },
+          { "slot": 5, "text": "Semiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR2]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR14]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Quantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n[ETR6]\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Systems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR3]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR8]" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" }
+        ],
+        "Friday": [
+          { "slot": 2, "text": "Distributed systems (CS4101) Lab\nDr. Satish" },
+          { "slot": 3, "text": "Distributed systems (CS4101) Lab\nDr. Satish" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR3]  " },
+          { "slot": 5, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Wireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]" },
+          { "slot": 8, "text": "Compiler Design (CS4102)\n[ELT2]" },
+          { "slot": 9, "text": "Compiler Design (CS4102)\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Saturday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "FREE" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "FREE" },
+          { "slot": 5, "text": "FREE" },
+          { "slot": 6, "text": "FREE" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ]
+      },
+
+      "CM": {
+        "Monday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "Dynamical Systems (MA4125)\nDr. Jai prakash\n[ECR2]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122\n Dr. Gourav\n[ELT2]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis [ECR3]\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Game Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR16]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105/EC 4125 )\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Tuesday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "Dynamical Systems (MA4125)\nDr. Jai prakash\n[ECR2]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nIntroduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 8, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR1]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Wednesday": [
+          { "slot": 1, "text": "Dynamical Systems (MA4125)\nDr. Jai prakash\n[ECR2]" },
+          { "slot": 2, "text": "FREE" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\n[ELT6]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n[ECR9]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR3]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT5]\n\nPlant Automation & CPS (ME4070)\nDr. Sahu\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\nDr. Raja Rao\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Thursday": [
+          { "slot": 1, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 2, "text": "FREE" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR6]\n\nFlexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR15]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]" },
+          { "slot": 5, "text": "Semiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR2]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR14]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Quantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n[ETR6]\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Systems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR3]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR8]" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" }
+        ],
+        "Friday": [
+          { "slot": 1, "text": "Basics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nFinal Year Project (PR4101)\nPractical (NT)" },
+          { "slot": 2, "text": "Plant Automation & CPS (ME4070)\nDr. Sahu\n[ECR6]\n\nFinal Year Project (PR4101)\nPractical (NT)" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR3]  " },
+          { "slot": 5, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Wireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Saturday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "FREE" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "FREE" },
+          { "slot": 5, "text": "FREE" },
+          { "slot": 6, "text": "FREE" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ]
+      },
+
+      "ECM": {
+        "Monday": [
+          { "slot": 1, "text": "Embedded System Design and Programming (EC 4101)\nDr. Bhargava\n[ECR3]" },
+          { "slot": 2, "text": "Flexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122\n Dr. Gourav\n[ELT2]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis [ECR3]\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Game Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR16]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105/EC 4125 )\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "Fundamentals of MIMO wireless communications (EC4141) \nDr. Subbarao boddu\n[ECR2]" }
+        ],
+        "Tuesday": [
+          { "slot": 1, "text": "Embedded System Design and Programming (EC 4101)\nDr. Bhargava\n[ECR3]" },
+          { "slot": 2, "text": "Flexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nIntroduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 8, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR1]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Wednesday": [
+          { "slot": 1, "text": "Embedded System Design and Programming (EC 4101) LAB\nDr. Bhargava " },
+          { "slot": 2, "text": "Embedded System Design and Programming (EC 4101) LAB\nDr. Bhargava " },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\n[ELT6]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n[ECR9]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR3]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT5]\n\nPlant Automation & CPS (ME4070)\nDr. Sahu\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\nDr. Raja Rao\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Thursday": [
+          { "slot": 1, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 2, "text": "Logic Synthesis and Verification (EC4139) LAB\nDr. Vemuri" },
+          { "slot": 3, "text": "Logic Synthesis and Verification (EC4139) LAB\nDr. Vemuri" },
+          { "slot": 4, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR6]\n\nFlexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR15]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]" },
+          { "slot": 5, "text": "Semiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR2]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR14]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Quantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n[ETR6]\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Systems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR3]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR8]" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" }
+        ],
+        "Friday": [
+          { "slot": 1, "text": "Basics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nFinal Year Project (PR4101)\nPractical (NT)" },
+          { "slot": 2, "text": "Plant Automation & CPS (ME4070)\nDr. Sahu\n[ECR6]\n\nFinal Year Project (PR4101)\nPractical (NT)" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR3]  " },
+          { "slot": 5, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Wireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "Fundamentals of MIMO wireless communications (EC4141)\nDr. Subbarao boddu\n[ECR2]" }
+        ],
+        "Saturday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "Fundamentals of MIMO wireless communications (EC4141)\nDr. Subbarao boddu\n[ECR2]" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "FREE" },
+          { "slot": 5, "text": "FREE" },
+          { "slot": 6, "text": "FREE" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ]
+      },
+
+      "AI": {
+        "Monday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "Computational Sequence Modelling (CS4121)\nDr. Neeraj\n[ECR6]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122\n Dr. Gourav\n[ELT2]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis [ECR3]\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Game Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR16]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105/EC 4125 )\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Tuesday": [
+          { "slot": 1, "text": "Computational Sequence Modelling (CS4121)\nDr. Neeraj\n[ECR6]" },
+          { "slot": 2, "text": "FREE" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR3]\n\nQuantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nIntroduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 8, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR10]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR6]\n\nSemiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR12]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR1]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR2]" },
+          { "slot": 9, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Wednesday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "Computational Sequence Modelling (CS4121)\nDr. Neeraj\n[ECR6]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\n[ELT6]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n[ECR9]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n[ECR3]" },
+          { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT5]\n\nPlant Automation & CPS (ME4070)\nDr. Sahu\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]" },
+          { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\nDr. Raja Rao\n[ELT2]\n\nHighway geometric design (CE4167)\nDr. Sandeepan\n[ECR6]\n\nPavement material characterisations (CE4166)\nDr. Deepti Avirneni\n[ECR2]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Thursday": [
+          { "slot": 1, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 2, "text": "Plant Automation & CPS (ME4070)\nDr. Sahu\n[ECR3]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "Semiconductor Devices for High Speed applications (EC 4138)\nDr. Akshara\n[ECR6]\n\nFlexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR15]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]" },
+          { "slot": 5, "text": "Semiconductor Device Modeling and Fabrication (EC4137)\nDr. Ramakant\n[ECR2]\n\nMemory Design & Testing (EC4136)\nDr. Pooran\n[ECR14]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Quantum Computing and Quantum Machine Learning (CS4108)\nDr. Patel\n[ELT2]\n\nSystems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nAtomic physics and quantum measurements (PH4106)\nDr. Vandna\n[ETR6]\n\nWireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]\n\nQuantum computing (MA4124)\nDr. Jayasri\n[ECR13]" },
+          { "slot": 8, "text": "Systems Engineering (ME4060)\nDr. Bhaskar\n[ECR6]\n\nGame Theory (CS4187)\nDr. Saha\n[ECR3]\n\nMedical Image Analysis by Deep Learning (CS4189)\nDr. Satish\n[ECR8]" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "Industrial Engineering (ME 4105)\nDr. JLB\n[ELT1]\n\nComputer Vision (CS4188)\nDr. Rajarao\n[ELT2]" }
+        ],
+        "Friday": [
+          { "slot": 1, "text": "Basics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nFinal Year Project (PR4101)\nPractical (NT)" },
+          { "slot": 2, "text": "Plant Automation & CPS (ME4070)\nDr. Sahu\n[ECR6]\n\nFinal Year Project (PR4101)\nPractical (NT)" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "Introduction to IC Engines (ME4058)\nDr. Bhaskar\n[ECR3]  " },
+          { "slot": 5, "text": "Enterprise Risk Management (HS 3010)\nSri Kalyana Rama Jyosyula\n[ECR3]\n\nAcademic Writing (HS3011)\nDr. Pankaj Narke\n[ECR6]\n\nBusiness Communication (HS3104)\nDr. Ravi Kumar\n[ECR1]\n\nInterpersonal Communication (HS3205)\nTabitha Chekuri\n[ECR10]\n\nThe World as We 'Read' It (HS4103)\nParomita Bose\n[ECR16]\n\nLaunching & Scaling up New Ventures (HS4105)\nProf. Rajkumar Phatate\n[ECR14]\n\nReading Graphic Fiction (HS4110)\nDr. Monali Sahu Pathange\n[ECR4]\n\nInvestment Management (HS4112)\nDr. Augustin Paul\n[ECR5]\n\nMind over Matter (HS4114)\nAnirban & Salome\n[ECR9]\n\nManagement and Leadership Lessons from the Bhagawad Gita (IK3101)\nDr. Visalakshi, Dr. Kalyana Rama, Dr. Kondaiah and Dr. Mukesh\n[ECR7]" },
+          { "slot": 6, "text": "LUNCH BREAK" },
+          { "slot": 7, "text": "Wireless Sensor Networks (CS4164)\nDr. Murthy\n[ECR15]" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ],
+        "Saturday": [
+          { "slot": 1, "text": "FREE" },
+          { "slot": 2, "text": "FREE" },
+          { "slot": 3, "text": "FREE" },
+          { "slot": 4, "text": "FREE" },
+          { "slot": 5, "text": "FREE" },
+          { "slot": 6, "text": "FREE" },
+          { "slot": 7, "text": "FREE" },
+          { "slot": 8, "text": "FREE" },
+          { "slot": 9, "text": "FREE" },
+          { "slot": 10, "text": "FREE" }
+        ]
+      }
+  }

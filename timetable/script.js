@@ -4,8 +4,9 @@ let hrmin = currentTime.toTimeString().slice(0, 5);
 let section=localStorage.getItem('section');
 
 document.querySelector(`#${day.toLowerCase()}`).style.backgroundColor='#59C9A5';
+if(section!==null){
 document.querySelector(`#${section.toLowerCase()}`).style.backgroundColor='#59C9A5';
-
+}
 const getSlot=()=>{
     if(hrmin)
     if(hrmin<'09:20'){
@@ -79,7 +80,9 @@ setSlots();
 
 document.querySelectorAll('.section-buttons').forEach((sectionBtn)=>{
     sectionBtn.addEventListener('click',()=>{
+        if(section!==null){
         document.querySelector(`#${section.toLowerCase()}`).style.backgroundColor='#00000033';
+        }
         section=sectionBtn.id.toUpperCase();
         document.querySelector(`#${section.toLowerCase()}`).style.backgroundColor='#59C9A5';
         localStorage.setItem('section',section);

@@ -1,13 +1,16 @@
-const currentTime = new Date();
-let day=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][currentTime.getDay()];
-let hrmin = currentTime.toTimeString().slice(0, 5);
-let section=localStorage.getItem('section');
 
+const getToday=()=>{
+    return ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][new Date().getDay()];
+}
+let day=getToday();
+let section=localStorage.getItem('section');
 document.querySelector(`#${day.toLowerCase()}`).style.backgroundColor='#59C9A5';
 if(section!==null){
 document.querySelector(`#${section.toLowerCase()}`).style.backgroundColor='#59C9A5';
 }
+
 const getSlot=()=>{
+    const hrmin = new Date().toTimeString().slice(0, 5);
     if(hrmin)
     if(hrmin<'09:20'){
         return 1;
@@ -67,7 +70,7 @@ const setSlots=async ()=>{
         if(Number(idx)+1<curSlot){
             document.querySelector(`#slot${Number(idx)+1}`).style.opacity='.5';
         }
-        if(Number(idx)+1===curSlot){
+        if(Number(idx)+1===curSlot && day===getToday()){
             document.querySelector(`#slot${Number(idx)+1}`).classList.add('current-slot');
             document.querySelector(`#slot${Number(idx)+1}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
@@ -93,6 +96,9 @@ document.querySelectorAll('.section-buttons').forEach((sectionBtn)=>{
 document.querySelectorAll('.day-button').forEach((dayBtn)=>{
     dayBtn.addEventListener('click',()=>{
         document.querySelector(`#${day.toLowerCase()}`).style.backgroundColor='white';
+        if(document.querySelector('.current-slot')!==null){
+        document.querySelector('.current-slot').classList.remove('current-slot');
+        }
         day=dayBtn.id;
         day=day.charAt(0).toUpperCase()+day.slice(1);
         document.querySelector(`#${day.toLowerCase()}`).style.backgroundColor='#59C9A5';

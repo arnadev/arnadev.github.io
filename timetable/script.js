@@ -64,13 +64,13 @@ const setSlots=async ()=>{
     for(idx in iterableslots){
         document.querySelector(`#slot${Number(idx)+1}`).innerText=iterableslots[idx].text;
         document.querySelector(`#slot${Number(idx)+1}`).prepend(timingList[idx]);
-        if(curSlot===-1){
+        if(curSlot===-1 || day!==getToday()){
             continue;
         }
         if(Number(idx)+1<curSlot){
             document.querySelector(`#slot${Number(idx)+1}`).style.opacity='.5';
         }
-        if(Number(idx)+1===curSlot && day===getToday()){
+        if(Number(idx)+1===curSlot){
             document.querySelector(`#slot${Number(idx)+1}`).classList.add('current-slot');
             document.querySelector(`#slot${Number(idx)+1}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
@@ -99,6 +99,7 @@ document.querySelectorAll('.day-button').forEach((dayBtn)=>{
         if(document.querySelector('.current-slot')!==null){
         document.querySelector('.current-slot').classList.remove('current-slot');
         }
+        document.querySelectorAll('.slot').forEach((slot)=>{slot.style.opacity=1});
         day=dayBtn.id;
         day=day.charAt(0).toUpperCase()+day.slice(1);
         document.querySelector(`#${day.toLowerCase()}`).style.backgroundColor='#59C9A5';

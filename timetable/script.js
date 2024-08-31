@@ -4,7 +4,9 @@ const getToday=()=>{
 }
 let day=getToday();
 let section=localStorage.getItem('section');
+if(day!=='Sunday'){
 document.querySelector(`#${day.toLowerCase()}`).style.backgroundColor='#59C9A5';
+}
 if(section!==null){
 document.querySelector(`#${section.toLowerCase()}`).style.backgroundColor='#59C9A5';
 }
@@ -57,6 +59,12 @@ const setSlots=async ()=>{
     if(section===null){
         return;
     }
+    if(day==='Sunday'){
+        setTimeout(()=>{
+            alert('Today is Sunday, please select a weekday');
+        },1000);
+        return;
+    }
     let data=await getData();
     let curSlot=getSlot();
     const iterableslots=data[section][day];
@@ -95,7 +103,10 @@ document.querySelectorAll('.section-buttons').forEach((sectionBtn)=>{
 
 document.querySelectorAll('.day-button').forEach((dayBtn)=>{
     dayBtn.addEventListener('click',()=>{
+
+        if(day!=='Sunday'){
         document.querySelector(`#${day.toLowerCase()}`).style.backgroundColor='white';
+        }
         if(document.querySelector('.current-slot')!==null){
         document.querySelector('.current-slot').classList.remove('current-slot');
         }

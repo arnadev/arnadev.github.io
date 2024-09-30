@@ -247,7 +247,7 @@ h2{
 }
 
 .contact-logo:hover{
-    filter: blur(0px);
+    transform: scale(.97);
     cursor: pointer;
 }
 
@@ -264,6 +264,8 @@ a {
 a:hover {
     color: #2d4a5a;
 }
+
+
 
 @media (max-width: 600px)  {
 
@@ -305,7 +307,6 @@ a:hover {
 
     .contact-logo{
         height: 20vw;
-        filter: blur(0px);
     }
 
     ul{

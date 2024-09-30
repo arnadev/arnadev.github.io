@@ -54,7 +54,7 @@ html{
     font-size: 1em;
     font-weight: bold;
     font-family: Helvetica, sans-serif;
-    background-color: rgb(0,0,0,.2);
+    background-color: #00000033;
     margin: 5px;
     border-radius: 7px;
 }

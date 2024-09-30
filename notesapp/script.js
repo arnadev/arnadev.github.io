@@ -93,6 +93,7 @@ searchBtn.addEventListener('click',()=>{
         }
     }
     }
+    searchResetBtn.style.visibility='visible';
 })
 
 searchResetBtn.addEventListener('click',()=>{
@@ -100,5 +101,9 @@ searchResetBtn.addEventListener('click',()=>{
     for(divv of divs){
         divv.style.display='block';  
     }
+    searchResetBtn.style.visibility='hidden';
 })
 
+document.querySelector('#open-input').addEventListener('click',()=>{
+    document.querySelector('#input-field').style.visibility=document.querySelector('#input-field').style.visibility==='hidden'?'visible':'hidden';
+});

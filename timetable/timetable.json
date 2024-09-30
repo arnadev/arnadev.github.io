@@ -90,7 +90,7 @@
       "Tuesday": [
         { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
         { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
-        { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+        { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
         { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
         { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
         { "slot": 6, "text": "LUNCH BREAK" },
@@ -165,7 +165,7 @@
         "Tuesday": [
           { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
           { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
-          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
           { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
           { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
           { "slot": 6, "text": "LUNCH BREAK" },
@@ -239,7 +239,7 @@
         "Tuesday": [
           { "slot": 1, "text": "Distributed systems (CS4101)\nDr. Satish\n[ELT4]" },
           { "slot": 2, "text": "Crypto and NetSecurity (CS4103)\nDr. Raghu\n[ELT4]" },
-          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
           { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
           { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
           { "slot": 6, "text": "LUNCH BREAK" },
@@ -314,7 +314,7 @@
         "Tuesday": [
           { "slot": 1, "text": "FREE" },
           { "slot": 2, "text": "Dynamical Systems (MA4125)\nDr. Jai prakash\n[ECR2]" },
-          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
           { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
           { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
           { "slot": 6, "text": "LUNCH BREAK" },
@@ -389,7 +389,7 @@
         "Tuesday": [
           { "slot": 1, "text": "Embedded System Design and Programming (EC 4101)\nDr. Bhargava\n[ECR3]" },
           { "slot": 2, "text": "Flexible and Wearable Sensors (EC4140)\nDr. Aburi\n[ECR3]" },
-          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
           { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
           { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
           { "slot": 6, "text": "LUNCH BREAK" },
@@ -464,7 +464,7 @@
         "Tuesday": [
           { "slot": 1, "text": "Computational Sequence Modelling (CS4121)\nDr. Neeraj\n[ECR6]" },
           { "slot": 2, "text": "FREE" },
-          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6\\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
+          { "slot": 3, "text": "Reinforcement Learning (CS4122)\nDr. Gourav\nELT2\n\nDeep Learning (CS4157)\nDr. Arya\n[ECR13]\n\nAerodynamics and Flight Mechanics (ME 4065)\nDr. Debasis\n\nTraffic Operations and Control (CE4165)\nDr. Jahnavi\n[ECR6]\n\nNano Electronics & Sensors (PH4103)\nProf. Jean Heremans\n\n[ECR2]" },
           { "slot": 4, "text": "Computer Genomics (CS4123)\nDr. Ravi Kiran\n[ELT2]\n\nBasics of Electric Vehicles (ME4532)\nDr. Manish\n[ECR10]\n\nUrban Transportation Planning (CE4164)\nDr. Subbarao\n[ECR6]\n\nLogic Synthesis and Verification (EC4139)\nDr. Vemuri\n[ECR2]" },
           { "slot": 5, "text": "AI in Industry 4.0 (CS4124)\n\nDr. Raja Rao\n[ELT2]" },
           { "slot": 6, "text": "LUNCH BREAK" },

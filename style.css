@@ -57,6 +57,7 @@ body{
     align-self: flex-start;
     text-align: center;
     width: 100%;
+    font-size: 3rem;
 }
 
 
@@ -243,7 +244,6 @@ h2{
     height: 10vw;
     height: 10vw;
     transition: cubic-bezier(0,.65,.65,1) .5s;
-    filter: blur(4px);
 }
 
 .contact-logo:hover{
@@ -265,12 +265,10 @@ a:hover {
     color: #2d4a5a;
 }
 
-
-
 @media (max-width: 600px)  {
 
     #arnavchalla-text{
-        font-size: 3rem;
+        font-size: 3.7rem;
     }
     #home{
         width: 90vw;

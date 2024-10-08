@@ -58,7 +58,7 @@
         translate: 0;
     }
     100%{
-        translate: 0 -15vw;
+        translate: 0 -23vw;
     }
 }
 
@@ -159,6 +159,16 @@
         position: relative;
         bottom: 20vh;
     }
+
+    @keyframes slideup{
+        0%{
+            translate: 0;
+        }
+        100%{
+            translate: 0 -15vw;
+        }
+    }
+    
 
 }
 
